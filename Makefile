@@ -1,8 +1,8 @@
 MAKE=make
 RM=rm
 all:
-        g++ server2.cpp -o server2
-        g++ client2.cpp -o client2
+        g++ server.cpp -o server
+        g++ client.cpp -o client
 clean:
-        $(RM) server2
-        $(RM) client2
+        $(RM) server
+        $(RM) client
